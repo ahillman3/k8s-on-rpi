@@ -1,6 +1,5 @@
 [Unit]
 Description=The Master Components for Kubernetes
-After=docker.service
 Requires=k8s-etcd.service
 
 [Service]
